@@ -1,0 +1,73 @@
+﻿using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
+using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using TouristHouse.Application.Abstractions.Services;
+
+namespace TouristHouse.Persistence.Services
+{
+    public class PhotoService : IPhotoService
+    {
+
+        private readonly Cloudinary? _cloudinary;
+        public PhotoService()
+        {
+            var acc = new Account
+            (
+                ServiceRegistraton.GetCloudinarySettings.CloudName,
+                ServiceRegistraton.GetCloudinarySettings.ApiKey,
+                ServiceRegistraton.GetCloudinarySettings.ApiSecret
+            );
+            _cloudinary = new Cloudinary(acc);
+        }
+
+
+
+        //public bool ImageSize(IFormFile file, int size)
+        //	=> file.Length / 1024 > size;
+
+
+        //public bool IsImage(IFormFile file)
+        //	=> file.ContentType.Contains("image/");
+
+
+        public async Task<ImageUploadResult> AddPhotoAsync(IFormFile file)
+        {
+            var uploadResult = new ImageUploadResult();
+
+            using var stream = file.OpenReadStream();
+            var uploadParams = new ImageUploadParams
+            {
+                File = new FileDescription(file.FileName, stream),
+                Transformation = new Transformation().Color("#0000007D").Overlay(new TextLayer().FontFamily("arial")
+                      .FontSize(220).FontWeight("bold").TextAlign("left").Text("Tourist House")).Chain()
+                      .Flags("layer_apply").Gravity("center")
+            };
+
+            uploadResult = await _cloudinary.UploadAsync(uploadParams);
+
+            return uploadResult;
+        }
+
+        public async Task<List<ImageUploadResult>> AddRangeAsync(ICollection<IFormFile> files)
+        {
+            List<ImageUploadResult> results = new();
+            foreach (var file in files)
+            {
+                var result = await AddPhotoAsync(file);
+                results.Add(result);
+            }
+            return results;
+        }
+
+        public async Task<DeletionResult> DeletePhotoAsync(string publicId)
+        {
+            var deleteParams = new DeletionParams(publicId);
+
+            var result = await _cloudinary.DestroyAsync(deleteParams);
+
+            return result;
+        }
+
+    }
+}

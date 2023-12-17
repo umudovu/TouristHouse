@@ -1,0 +1,14 @@
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\bin\Debug\net6.0\TouristHouse.Domain.deps.json
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\bin\Debug\net6.0\TouristHouse.Domain.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\bin\Debug\net6.0\TouristHouse.Domain.pdb
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.csproj.AssemblyReference.cache
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.AssemblyInfoInputs.cache
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.AssemblyInfo.cs
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.csproj.CoreCompileInputs.cache
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\refint\TouristHouse.Domain.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.pdb
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\ref\TouristHouse.Domain.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\bin\Debug\net6.0\TouristHouse.Domain.runtimeconfig.json
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Core\TouristHouse.Domain\obj\Debug\net6.0\TouristHouse.Domain.genruntimeconfig.cache

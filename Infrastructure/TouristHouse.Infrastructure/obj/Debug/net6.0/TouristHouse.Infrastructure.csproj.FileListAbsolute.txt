@@ -1,0 +1,17 @@
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Infrastructure.deps.json
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Infrastructure.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Infrastructure.pdb
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.AssemblyInfo.cs
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\refint\TouristHouse.Infrastructure.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.pdb
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\ref\TouristHouse.Infrastructure.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Application.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Domain.dll
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Application.pdb
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\bin\Debug\net6.0\TouristHouse.Domain.pdb
+C:\Users\umudo\Desktop\Tourism project\TouristHouse\Infrastructure\TouristHouse.Infrastructure\obj\Debug\net6.0\TouristHouse.Infrastructure.csproj.CopyComplete
