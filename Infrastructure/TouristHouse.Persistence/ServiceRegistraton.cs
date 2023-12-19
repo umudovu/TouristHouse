@@ -66,7 +66,6 @@ namespace TouristHouse.Persistence
                 };
                 return cloudinary;
 
-
             }
         }
     }
